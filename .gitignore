@@ -1,0 +1,7 @@
+target
+.vscode
+output/*
+test_ir/*
+test_asm/*
+test
+*.zip

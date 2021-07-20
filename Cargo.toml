@@ -1,0 +1,11 @@
+[package]
+name = "sysycompiler"
+version = "0.1.0"
+authors = ["bakerbunker <bakerbunker@nwpu.edu.cn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.0.0"
+clap = "3.0.0-beta.2"
