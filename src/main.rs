@@ -11,7 +11,7 @@ use sysycompiler::{asm::{self, asmgen::asmgen}, ir::{self, bb_optim::bb_optim, d
 fn main() {
     let matches = App::new("SysY Compiler")
         .version("1.0")
-        .author("bakerbunker@nwpu.edu.cn")
+        .author("bakerbunker@mail.nwpu.edu.cn")
         .about("Compile SysY file to LLVM IR or MIPS assembly")
         .arg(Arg::new("INPUT").about("SysY file").required(true))
         .arg(
